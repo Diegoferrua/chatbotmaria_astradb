@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # RAGBot Starter
 
 This project is a starter for creating a chatbot using Astra DB and OpenAI. It's designed to be easy to deploy and use, with a focus on performance and usability.
@@ -42,3 +43,6 @@ You can easily deploy your chatbot to Vercel by clicking the button below:
 Remember to set your environment variables to the values obtained when setting up your Astra DB and OpenAI accounts.
 
 Note: Before you deploying to prod, you will want to remove seed script (`npm run seed`) from the build step.
+=======
+# chatbotmaria_astradb
+>>>>>>> 1889c63021bfb95e166d16fdb229089903a4fc42
