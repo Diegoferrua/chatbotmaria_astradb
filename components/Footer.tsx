@@ -9,7 +9,7 @@ const Footer = () => {
       >
         <span className="px-3">▲</span>
         <hr className="h-full border-r" />
-        <span className="px-3">Deploy</span>
+        <span className="px-3">NECESITO AYUDA</span>
       </a>
       <div className="ml-auto flex flex-row items-center">
         <span className="mr-1">Powered by</span>
