@@ -1,7 +1,6 @@
-<<<<<<< HEAD
-# RAGBot Starter
+# chatbotmaria_astradb
 
-This project is a starter for creating a chatbot using Astra DB and OpenAI. It's designed to be easy to deploy and use, with a focus on performance and usability.
+Chatbot RAG (Retrieval-Augmented Generation) construido con Astra DB y OpenAI, listo para desplegar en Vercel.
 
 ## Features
 
@@ -15,7 +14,7 @@ This project is a starter for creating a chatbot using Astra DB and OpenAI. It's
 ### Prerequisites
 
 - An Astra DB account. You can [create one here](https://astra.datastax.com/register).
-    - An Astra Vector Database
+- An Astra Vector Database
 - An OpenAI account. You can [create one here](https://platform.openai.com/).
 
 ### Setup
@@ -23,11 +22,11 @@ This project is a starter for creating a chatbot using Astra DB and OpenAI. It's
 1. Clone this repository to your local machine.
 2. Install the dependencies by running `npm install` in your terminal.
 3. Set up the following environment variables in your IDE or `.env` file:
-    - `ASTRA_DB_NAMESPACE`: The existing Astra Namespace/Keyspace **_in a vector-enabled DB_**
-    - `OPENAI_API_KEY`: Your API key for OpenAI
-    - `ASTRA_DB_ENDPOINT`: Your Astra DB vector database endpoint
-    - `ASTRA_DB_APPLICATION_TOKEN`: The generated app token for your Astra database
-        - To create a new token go to your database's `Connect` tab and click `Generate Token`. (your Application Token begins with `AstraCS:...`)
+   - `ASTRA_DB_NAMESPACE`: The existing Astra Namespace/Keyspace **_in a vector-enabled DB_**
+   - `OPENAI_API_KEY`: Your API key for OpenAI
+   - `ASTRA_DB_ENDPOINT`: Your Astra DB vector database endpoint
+   - `ASTRA_DB_APPLICATION_TOKEN`: The generated app token for your Astra database
+   - To create a new token go to your database's `Connect` tab and click `Generate Token`. (your Application Token begins with `AstraCS:...`)
 4. Populate your database with sample data by running `npm run seed` in your terminal.
 
 ### Running the Project
@@ -42,7 +41,4 @@ You can easily deploy your chatbot to Vercel by clicking the button below:
 
 Remember to set your environment variables to the values obtained when setting up your Astra DB and OpenAI accounts.
 
-Note: Before you deploying to prod, you will want to remove seed script (`npm run seed`) from the build step.
-=======
-# chatbotmaria_astradb
->>>>>>> 1889c63021bfb95e166d16fdb229089903a4fc42
+Note: Before deploying to prod, you will want to remove the seed script (`npm run seed`) from the build step.
